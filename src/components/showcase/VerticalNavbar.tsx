@@ -6,34 +6,34 @@ import { useLocation, useNavigate } from 'react-router';
 export interface VerticalNavbarProps {}
 
 const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
-    const location = useLocation();
+    const location = window.location.pathname;
     const [projectsExpanded, setProjectsExpanded] = useState(false);
     const [isHome, setIsHome] = useState(false);
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const goToContact = () => {
-        navigate('/contact');
+        // navigate('/contact');
     };
 
     useEffect(() => {
-        if (location.pathname.includes('/projects')) {
-            setProjectsExpanded(true);
+        if (location==='/projects') {
+            // setProjectsExpanded(true);
         } else {
-            setProjectsExpanded(false);
+            // setProjectsExpanded(false);
         }
-        if (location.pathname === '/') {
+        if (location === '/') {
             setIsHome(true);
         } else {
             setIsHome(false);
         }
         return () => {};
-    }, [location.pathname]);
+    }, [location]);
 
-    return !isHome ? (
+    return location !== '/' ? (
         <div style={styles.navbar}>
             <div style={styles.header}>
-                <h1 style={styles.headerText}>Henry</h1>
-                <h1 style={styles.headerText}>Heffernan</h1>
+                <h1 style={styles.headerText}>Rahmath</h1>
+                {/* <h1 style={styles.headerText}>Rahmathullah</h1> */}
                 <h3 style={styles.headerShowcase}>Showcase '22</h3>
             </div>
             <div style={styles.links}>
@@ -44,37 +44,33 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                     to="experience"
                     text="EXPERIENCE"
                 />
-                <Link
-                    containerStyle={Object.assign(
-                        {},
-                        styles.link,
-                        projectsExpanded && styles.expandedLink
-                    )}
+                {/* <Link
+                    containerStyle={styles.link}
                     to="projects"
                     text="PROJECTS"
                 />
                 {
                     // if current path contains projects
-                    projectsExpanded && (
-                        <div style={styles.insetLinks}>
+                    location==='/projects'&& (
+                        <div style={styles.link}>
                             <Link
-                                containerStyle={styles.insetLink}
+                                // containerStyle={styles.insetLink}
                                 to="projects/software"
                                 text="SOFTWARE"
                             />
                             <Link
-                                containerStyle={styles.insetLink}
+                                // containerStyle={styles.insetLink}
                                 to="projects/music"
                                 text="MUSIC"
                             />
                             <Link
-                                containerStyle={styles.insetLink}
+                                // containerStyle={styles.insetLink}
                                 to="projects/art"
                                 text="ART"
                             />
                         </div>
                     )
-                }
+                } */}
                 <Link
                     containerStyle={styles.link}
                     to="contact"
@@ -93,7 +89,7 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
 
 const styles: StyleSheetCSS = {
     navbar: {
-        width: 300,
+        width: 350,
         height: '100%',
         flexDirection: 'column',
         padding: 48,

@@ -4,7 +4,7 @@ import ShowcaseExplorer from '../applications/ShowcaseExplorer';
 import Doom from '../applications/Doom';
 import OregonTrail from '../applications/OregonTrail';
 import ShutdownSequence from './ShutdownSequence';
-// import ThisComputer from '../applications/ThisComputer';
+import ThisComputer from '../applications/ThisComputer';
 import Henordle from '../applications/Henordle';
 import Toolbar from './Toolbar';
 import DesktopShortcut, { DesktopShortcutProps } from './DesktopShortcut';
@@ -24,42 +24,42 @@ const APPLICATIONS: {
         component: React.FC<ExtendedWindowAppProps<any>>;
     };
 } = {
-    // computer: {
-    //     key: 'computer',
-    //     name: 'This Computer',
-    //     shortcutIcon: 'computerBig',
-    //     component: ThisComputer,
-    // },
+    computer: {
+        key: 'computer',
+        name: 'This Computer',
+        shortcutIcon: 'computerBig',
+        component: ThisComputer,
+    },
     showcase: {
         key: 'showcase',
         name: 'My Showcase',
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },
-    trail: {
-        key: 'trail',
-        name: 'The Oregon Trail',
-        shortcutIcon: 'trailIcon',
-        component: OregonTrail,
-    },
-    doom: {
-        key: 'doom',
-        name: 'Doom',
-        shortcutIcon: 'doomIcon',
-        component: Doom,
-    },
-    scrabble: {
-        key: 'scrabble',
-        name: 'Scrabble',
-        shortcutIcon: 'scrabbleIcon',
-        component: Scrabble,
-    },
-    henordle: {
-        key: 'henordle',
-        name: 'Henordle',
-        shortcutIcon: 'henordleIcon',
-        component: Henordle,
-    },
+    // trail: {
+    //     key: 'trail',
+    //     name: 'The Oregon Trail',
+    //     shortcutIcon: 'trailIcon',
+    //     component: OregonTrail,
+    // },
+    // doom: {
+    //     key: 'doom',
+    //     name: 'Doom',
+    //     shortcutIcon: 'doomIcon',
+    //     component: Doom,
+    // },
+    // scrabble: {
+    //     key: 'scrabble',
+    //     name: 'Scrabble',
+    //     shortcutIcon: 'scrabbleIcon',
+    //     component: Scrabble,
+    // },
+    // henordle: {
+    //     key: 'henordle',
+    //     name: 'Henordle',
+    //     shortcutIcon: 'henordleIcon',
+    //     component: Henordle,
+    // },
     credits: {
         key: 'credits',
         name: 'Credits',

@@ -7,16 +7,16 @@ import { useNavigate } from 'react-router';
 export interface HomeProps {}
 
 const Home: React.FC<HomeProps> = (props) => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const goToContact = () => {
-        navigate('/contact');
+        // navigate('/contact');
     };
 
     return (
         <div style={styles.page}>
             <div style={styles.header}>
-                <h1 style={styles.name}>Henry Heffernan</h1>
+                <h1 style={styles.name}>Mohamed Rahmathullah</h1>
                 <h2>Software Engineer</h2>
             </div>
             <div style={styles.buttons}>
@@ -26,11 +26,11 @@ const Home: React.FC<HomeProps> = (props) => {
                     to="experience"
                     text="EXPERIENCE"
                 />
-                <Link
+                {/* <Link
                     containerStyle={styles.link}
                     to="projects"
                     text="PROJECTS"
-                />
+                /> */}
                 <Link
                     containerStyle={styles.link}
                     to="contact"
