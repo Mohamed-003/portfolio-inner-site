@@ -77,7 +77,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                       success: false;
                       error: string;
                   }
-                | { success: true };
+                | { success: true,error: string; };
             if (data.success) {
                 setFormMessage(`Message successfully sent. Thank you ${name}!`);
                 setCompany('');
