@@ -10,232 +10,226 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Trusty Bytes</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://www.trustybytes.com/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>www.trustybytes.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Full Stack Developer </h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Nov 2021 - Present · 3 yrs</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
+                {/* <p>
                     Targeted towards online content creators and streamers
                     looking to build a brand, Hover is the home of over 150K
                     users. Written in Typescript using React, React-Native,
                     Framer, Express, and Redux.
-                </p>
+                </p> */}
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
+                        Led development of a high-performance e-commerce platform, boosting SEO rankings by 75% using React.js and Node.js.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
+                        Engineered an AI-driven aquaculture solution using Next.js and GraphQL, revolutionizing operations for fish and shrimp farmers.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
+                        Implemented Docker containerization and GitHub-based CI/CD pipeline for a digital signage management system, significantly improving deployment efficiency.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
+                        Designed and built a scalable restaurant management system, streamlining operations for 10-20 US-based restaurants.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
+                        Rescued a stalled Ed-Tech project, delivering a production-ready application within 2 weeks using React.js and Python.
                         </p>
                     </li>
+                    <li>
+                        <p>
+                        Developed cloud-native applications leveraging AWS services including Lambda, S3, EC2, and Elastic Beanstalk.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Created a QR code-based marketing tool that increased client website traffic and social media engagement.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Demonstrated versatility across full-stack development, from frontend frameworks (React, Angular) to backend technologies (Node.js, Python, PHP).
+                        </p>
+                    </li>
+                    
                 </ul>
+                <p>
+                        <b>Skills:</b> JavaScript · Bootstrap (Framework) · Resource Planning · Vue.js · Express.js · Teamwork · MySQL · Amazon Web Services (AWS) · Communication · Docker · React.js · Problem Solving · Shell Scripting · Representational State Transfer (REST) · Server Side · Critical Thinking · SQL · Jest · Microservices · Version Control · Web Development · Flask · PostgreSQL · Presentation Skills · AWS Identity and Access Management (AWS IAM) · AngularJS · RESTful WebServices · Presentations · Web Solutions · React Native · Data Caching · Tailwind CSS · TypeScript · Content Management Systems (CMS) · REST APIs · Unit Testing · Cloud Computing · Webpack · Technical Proficiency · Code Review · Material-UI · Leadership · Elasticsearch · Responsive Web Design · Front-End Development · Web Applications · Analytical Skills
+                        </p>
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>Aquaconnect - Consultant</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            href={'https://aquaconnect.blue/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>www.aquaconnect.blue</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Full Stack Developer</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>May 2024 - Jul 2024 · 3 mos</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
+                {/* <p>
                     Supervised and developed the front end of bracs.co, a
                     beautifully simple and effective bracket creation and
                     management engine. Written in Typescript using React and
                     deployed using AWS Elastic Beanstalk.
-                </p>
+                </p> */}
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
+                        • Pioneered an innovative AI-driven aquaculture platform using Next.js, revolutionizing operations for shrimp and fish farmers.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                        • Implemented GraphQL for efficient data querying, optimizing data retrieval and reducing backend load in a complex aquaculture system. 
                         </p>
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
+                        • Leveraged Recoil.js for state management, enhancing application performance and user experience in a data-intensive environment.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                        • Developed predictive analytics features using AI, enabling farmers to optimize feeding schedules and improve yield. 
                         </p>
                     </li>
+                    <li>
+                        <p>
+                        • Created an intuitive dashboard for real-time monitoring of water quality parameters, leveraging Next.js for server-side rendering. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        • Implemented AI-based disease detection algorithms, significantly reducing crop losses in aquaculture farms.  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        • Utilized Next.js API routes to create a seamless backend-frontend integration, improving overall system responsiveness.  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        • Designed and developed a scalable architecture capable of handling data from multiple farm locations simultaneously.  
+                        </p>
+                    </li>
+                   
                 </ul>
+                <p>
+                        <b>Skills:</b> React.js · nodejs · recoil · GraphQL · Next.js · REST APIs
+                        </p>
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>Plateron - Consultant</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'https://www.plateron.com/'}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4>www.plateron.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Frontend Developer</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>Oct 2022 - Jun 2023 · 9 mos</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
+                {/* <p>
                     Applied problem solving and technical skills to operate
                     large equipment such as rain machines, fog machines, small
                     explosives and general rigging with a professional crew of
                     50+ people.
-                </p>
+                </p> */}
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
                 <ul>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                        • Architected a scalable React.js-based restaurant management system, driving operational efficiency for multiple US-based eateries.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                        • Leveraged TypeScript to enhance code quality and maintainability in a complex, multi-restaurant management platform.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Hightown</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
-                            </a>{' '}
-                            ]
+                        • Implemented Redux for state management, ensuring seamless data flow across various modules of the restaurant system.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Bull</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
-                            </a>{' '}
-                            ]
+                        • Developed interactive data visualization components using Konva.js, providing restaurant owners with intuitive insights into their operations.
+
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
+                        • Designed and built a user-friendly interface that simplified complex restaurant processes, improving staff productivity and customer service.
                         </p>
                     </li>
+                    <li>
+                        <p>
+                        • Created a modular system architecture, allowing for easy customization and scalability to accommodate diverse restaurant needs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        • Implemented real-time features for order tracking and inventory management, enhancing operational transparency and efficiency.
+                        </p>
+                    </li>
+                    
+                    
+                   
                 </ul>
+                <p>
+                        <b>Skills:</b> JavaScript · SASS · Express.js · Teamwork · React.js · Problem Solving · Cascading Style Sheets (CSS) · Server Side · Critical Thinking · Microservices · Presentation Skills · HTML5 · Presentations · Web Solutions · Tailwind CSS · Unit Testing · Responsive Web Design · Web Applications
+                        </p>
+
             </div>
         </div>
     );

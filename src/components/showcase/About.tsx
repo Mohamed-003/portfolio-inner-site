@@ -12,28 +12,29 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Mohamed Rahmathullah</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                I'm currently working as a Full Stack Developer at Trusty Bytes, my expertise in React.js and AWS IAM has been critical in creating robust e-commerce platforms and cloud-native applications.
+                With a B.E. in Electrical & Communication Engineering from Anna University Chennai, I blend technical acumen with a passion for AI and UX design to deliver innovative solutions.
+
+                Leading the charge on an AI-driven aquaculture platform, my work stands at the intersection of technology and sustainability, revolutionizing the industry.
+                This initiative showcases my commitment to leveraging tech for impactful change, while also exemplifying my core competencies in full-stack development and problem-solving within high-stakes environments.
                 </p>
                 <br />
                 <p>
-                    Thank you for taking the time to check out my portfolio. I
-                    really hope you enjoy exploring it as much as I enjoyed
-                    building it. If you have any questions or comments, feel
+                    Thank you for taking the time to check out my portfolio. 
+                    If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:modrahmath@gmail.com">
+                        modrahmath@gmail.com
                     </a>
                 </p>
             </div>
             <ResumeDownload />
-            <div className="text-block">
+            {/* <div className="text-block">
                 <h3>About Me</h3>
                 <br />
                 <p>
@@ -153,7 +154,7 @@ const About: React.FC<AboutProps> = (props) => {
                         henryheffernan@gmail.com
                     </a>
                 </p>
-            </div>
+            </div> */}
         </div>
     );
 };

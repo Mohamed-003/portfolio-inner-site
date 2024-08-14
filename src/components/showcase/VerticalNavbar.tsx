@@ -71,11 +71,11 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                         </div>
                     )
                 } */}
-                <Link
+                {/* <Link
                     containerStyle={styles.link}
                     to="contact"
                     text="CONTACT"
-                />
+                /> */}
             </div>
             <div style={styles.spacer} />
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
