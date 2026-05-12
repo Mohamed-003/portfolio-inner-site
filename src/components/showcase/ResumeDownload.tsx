@@ -1,6 +1,6 @@
 import React from 'react';
 import printer from '../../assets/resume/printer.gif';
-import Resume from '../../assets/resume/Rahmathullah_resume_.pdf';
+import Resume from '../../assets/resume/Raymond_resume_.pdf';
 
 export interface ResumeDownloadProps {
     altText?: string;

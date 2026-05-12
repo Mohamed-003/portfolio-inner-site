@@ -32,8 +32,8 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
     return location !== '/' ? (
         <div style={styles.navbar}>
             <div style={styles.header}>
-                <h1 style={styles.headerText}>Rahmath</h1>
-                {/* <h1 style={styles.headerText}>Rahmathullah</h1> */}
+                <h1 style={styles.headerText}>Raymond</h1>
+                {/* <h1 style={styles.headerText}>Raymond</h1> */}
                 <h3 style={styles.headerShowcase}>Showcase '22</h3>
             </div>
             <div style={styles.links}>
